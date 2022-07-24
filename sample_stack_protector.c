@@ -10,7 +10,7 @@ int main (int argc, char ** argv)
     {
       for (sp = argv[1], dp = buf;*sp != '\0'; sp++, dp++)
 	{
-	  *sp = *dp;
+	  *dp = *sp;
 	}
     }
   
